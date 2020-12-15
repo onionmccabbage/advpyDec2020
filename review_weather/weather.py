@@ -18,10 +18,10 @@ class Weather():
         else:
             self.__location = Location('Edinburgh', 'uk')
     @property
-    def desc(self):
+    def desc(self): # this is a 'getter' method (aka an accessor)
         return self.__desc
     @desc.setter
-    def desc(self, new_desc):
+    def desc(self, new_desc): # this is a 'setter' (aka a mutator)
         if type(new_desc) == str and new_desc != '':
             self.__desc = new_desc
     @property

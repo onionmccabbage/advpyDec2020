@@ -10,3 +10,9 @@ The wind speed is 2.24 coming from 219°
 Description: light intensity shower rain
 Temperature: 20°C in Canberra, aus
 The wind speed is 2.1 coming from 110° 
+Description: light intensity drizzle
+Temperature: 7°C in Malmo, se
+The wind speed is 4.6 coming from 180° 
+Description: scattered clouds
+Temperature: 8°C in Dublin, ie
+The wind speed is 5.7 coming from 210° 

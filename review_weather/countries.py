@@ -1,2 +1,2 @@
 # a set
-countries = {'ie', 'uk', 'fr', 'aus', 'tw', 'jm'}
+countries = {'ie', 'uk', 'fr', 'aus', 'tw', 'jm', 'se'}

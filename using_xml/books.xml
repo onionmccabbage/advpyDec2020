@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<books>
+    <book>
+        <author>Ken Green</author>
+        <title>More XML</title>
+        <ISBN>DGE66354</ISBN>
+        <cost>105</cost>
+    </book>
+    <book>
+        <author>Jan Meyer</author>
+        <title>Python Intro</title>
+        <ISBN>JUE56228</ISBN>
+        <cost>65</cost>
+    </book>
+    <book>
+        <author>Tom Peters</author>
+        <title>Data analysis</title>
+        <ISBN>KLU84775</ISBN>
+        <cost>45</cost>
+    </book>
+</books>

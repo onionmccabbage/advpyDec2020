@@ -1,7 +1,6 @@
 Python Review Exercise see https://pastebin.com/cKD1X8vq
-======================
-
-Classes, inheritance, modules, decorators, overrides and file input/output
+====================== at least until beak (2:20) and probably until 2:45 ish
+Classes, inheritance, modules, decorators, overrides and input/output
 (plus some nice print formatting)
 
 We need a class to represent 'Weather' with properties for
@@ -12,7 +11,7 @@ We need a class to represent 'Weather' with properties for
 Declare a structure for 'location' with data members for 'city' and 'country'
 (This could be a 'Location' class or just a simple dictionary)
 Consider restricting 'country' to be any one of a set of 2 or 3 letter values
-  e.g. countries = {'ie', 'uk', 'fr', 'aus', 'tw'}
+  e.g. countries = {'ie', 'uk', 'fr', 'aus', 'tw', 'se'}
 Add 'location' as a property to the 'Weather' class, making sure it is an instance of your 'Location' class or dictionary
 
 Use separate modules to hold your class(es) and import them into a 'main.py' module
