@@ -1,0 +1,12 @@
+Description: clear sky
+Temperature: 9°C in Hull, uk
+The wind speed is 5.1 coming from 210° 
+Description: clear sky
+Temperature: 9°C in Hull, uk
+The wind speed is 5.1 coming from 210° 
+Description: overcast clouds
+Temperature: 8°C in Athlone, ie
+The wind speed is 2.24 coming from 219° 
+Description: light intensity shower rain
+Temperature: 20°C in Canberra, aus
+The wind speed is 2.1 coming from 110° 
