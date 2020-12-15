@@ -11,3 +11,4 @@ def askForInt():
 if __name__ == '__main__':
     age = askForInt()
     print( type(age), age)
+    

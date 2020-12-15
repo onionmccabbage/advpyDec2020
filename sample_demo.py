@@ -1,4 +1,5 @@
 # we can take JSON and use it as a Python structure
+
 new_struct = {
   "id": 1,
   "name": "Leanne Graham",

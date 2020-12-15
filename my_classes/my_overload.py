@@ -23,4 +23,3 @@ if __name__ == '__main__':
     ml = MyLister()
     char = ml[3]
     print(char)
-

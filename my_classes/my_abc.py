@@ -10,4 +10,3 @@ class Shape:
     @abstractproperty
     def name(self):
         pass
-

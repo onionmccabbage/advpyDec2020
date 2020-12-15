@@ -21,4 +21,3 @@ s = set(['Athlone', 'Athenry', 'Dublin'])
 
 f = frozenset(['Athlone', 'Athenry', 'Dublin'])
 print(type(f))
-

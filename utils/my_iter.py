@@ -1,5 +1,4 @@
 # we can iterate using custom generators which override next and iter
-
 my_list = [1, 7, 11, 42]
 
 list_iter = iter(my_list)

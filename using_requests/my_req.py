@@ -5,7 +5,6 @@
 # (thanks Igor!!)
 
 import requests
-
 url = 'https://jsonplaceholder.typicode.com'
 param = 'users' # users, posts, albums, todos, photos
 id = 3 # 1-9 to be safe
