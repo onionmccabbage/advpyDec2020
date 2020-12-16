@@ -4,6 +4,11 @@ import sqlite3
 import json
 import doctest
 
+# import sys
+
+# password = sys.argv[1]
+# print(password)
+
 # open a conection to a db
 conn = sqlite3.connect('zoo.db') # create if not exist
 cur = conn.cursor() # cursor lets use use the db

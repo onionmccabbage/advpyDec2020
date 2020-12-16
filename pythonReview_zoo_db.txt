@@ -1,5 +1,5 @@
-Python Database Review Exercise
-===============================
+Python Database Review Exercise see https://pastebin.com/4pdXrRxG
+=============================== until break at 2:20 then a bit after as well
 Write code (in modules/packages as you choose) which creates a database containing a table to store data related to a zoo
 Each animal in the zoo needs fields for 'animal_type', 'quantity' and 'maintenance_cost' along with a unique identifier
 (You will only need to run the database and table code once)

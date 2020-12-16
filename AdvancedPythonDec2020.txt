@@ -28,7 +28,16 @@ Questions:
   see https://pastebin.com/pij6x3Yv
 > client to print string not bytes
 - show an example where the password is hashed? PostgresSQL etc.
-- +NORMALIZE_WHITESPACE make this work
+  see 
+  https://pythonspot.com/python-database-postgresql/
+  https://www.postgresql.org/docs/9.2/sql-createrole.html
+  https://stackoverflow.com/questions/17429040/creating-user-with-encrypted-password-in-postgresql
+  https://www.tutorialspoint.com/postgresql/postgresql_python.htm
+  https://www.postgresql.org/docs/9.2/runtime-config-connection.html#GUC-PASSWORD-ENCRYPTION	
+  https://qvault.io/2020/01/29/hashing-passwords-python-cryptography-examples/
+  https://blog.tecladocode.com/learn-python-encrypting-passwords-python-flask-and-passlib/
+
+> +NORMALIZE_WHITESPACE works only for EXTRA white-space
   https://docs.python.org/3/library/doctest.html#warnings
 
 Tuesday
@@ -54,6 +63,7 @@ Wednesday
 - profiling
 
 Thursday
+- revisit the contextmanager
 - Python 2x and Python 3x versions of the ContextManagedAccount
 - multi threading, performance
 - revisit deque, defaultdict etc
