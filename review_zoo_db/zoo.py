@@ -1,7 +1,7 @@
 import sqlite3
 # import pickle
 # import datetime
-# import json
+import json
 import doctest
 
 # open a conection to a db
@@ -18,11 +18,11 @@ def createDatabaseTable():
 def InitialPopulateTable():
 # populate the table (CREATE)
     try:
-        st = '''INSERT INTO zoo VALUES("goose", 3, 0.0)'''
+        st = '''INSERT INTO zoo VALUES("Goose", 3, 0.0)'''
         cur.execute(st)
         st = '''INSERT INTO zoo (creatures, count, damages) VALUES(?, ?, ?)'''
-        cur.execute(st, ('egret', 5, 2000.00))
-        cur.execute(st, ('panda', 19, 1000000.00))
+        cur.execute(st, ('Egret', 5, 2000.00))
+        cur.execute(st, ('Panda', 19, 1000000.00))
     except Exception as err:
         print(err)
     finally:
@@ -48,9 +48,9 @@ def doShowAll():
     '''
     Read all data from the database snd print it all out nicely
     >>> doShowAll()
-    [('panda', 19, 1000000.0), ('goose', 3, 0.0)]
+    [('Panda', 19, 1000000.0), ('Goose', 3, 0.0)]
     '''
-    st = '''SELECT * FROM zoo ORDER BY count DESC'''
+    st = '''SELECT * FROM zoo ORDER BY creatures ASC'''
     cur.execute(st)
     # use the cursor we have
     rows = cur.fetchall()
@@ -103,7 +103,10 @@ def doDelete():
 
 if __name__ == '__main__':
     # run any doctests
-    doctest.testmod(verbose=True)
+    # doctest.testmod(verbose=True)
+    # createDatabaseTable()
+    # InitialPopulateTable()
+    loadFromJson()
 
     # ask user for a choice
     choice = 4
