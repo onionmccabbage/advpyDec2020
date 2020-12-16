@@ -1,6 +1,6 @@
 # import
 import abc
-
+import pickle
 
 # classes
 class AttemptExceedOverdraft(Exception):
@@ -95,3 +95,9 @@ if __name__ == '__main__':
     my_acc.withdraw(25)
     # make use of the accesssors via dictionary __getitem__
     print( my_acc[0], my_acc[1] )
+
+    t = BankAccount('Ada', 5000)
+    pickled_t = pickle.dumps(t)
+
+    r = pickle.loads(pickled_t)
+    print(r.statement()) # uses the __str__ method

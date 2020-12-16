@@ -1,0 +1,61 @@
+Python Advanced
+14-17 Dec 2020
+Toby Dussek
+
+9:30 start
+10:45 coffee
+12:00 lunch
+2:20 mini-break
+3:40 mini-break
+4:30 end
+
+what do you currently know
+what do you want to know
+
+Monday
+- intro
+- functional programming: map filter and reduce
+- labs
+- functional programming: parameters
+- comprehensions
+- iterators, generators
+- yield, next and custom generators 
+
+Questions:
+- install a point version of a library
+> put all code in git
+> show an example of old-skool get-set methods
+  see https://pastebin.com/pij6x3Yv
+> client to print string not bytes
+- show an example where the password is hashed? PostgresSQL etc.
+- +NORMALIZE_WHITESPACE make this works
+
+Tuesday
+- revisit the bank account and conclude...
+- classes - properties
+- networking: url requests (more than just get)
+- introduce some end-points
+- after lunch lab exercise (inc optional material)
+- ask questions, help each other, share code (screen-share)
+- begin processing text xml json
+- networking server/client
+
+Wednesday
+- json.loads() takes JSON and returns Python structure
+- json.dumps() takes Python and returns JSON
+- pickle ...
+- persisting files
+- databases
+- other conn strings
+- after lunch lab exercise
+- testing
+- closures
+- profiling
+
+Thursday
+- Python 2x and Python 3x versions of the ContextManagedAccount
+- multi threading, performance
+- revisit deque, defaultdict etc
+- all my code available online
+  https://github.com/onionmccabbage/advpyDec2020
+- feedback forms: internal Ericsson and also for ITAG
