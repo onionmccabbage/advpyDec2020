@@ -1,0 +1,8 @@
+[
+    {"type":"Albatros", "quantity":1, "cost":"3600"},
+    {"type":"Parrot", "quantity":0, "cost":"0"},
+    {"type":"African Swallow", "quantity":1, "cost":"400"},
+    {"type":"European Swallow", "quantity":17, "cost":"20"},
+    {"type":"Trout", "quantity":80, "cost":"270"},
+    {"type":"Hedgehog", "quantity":9, "cost":"2"}
+]

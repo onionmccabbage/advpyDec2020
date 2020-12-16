@@ -28,7 +28,8 @@ Questions:
   see https://pastebin.com/pij6x3Yv
 > client to print string not bytes
 - show an example where the password is hashed? PostgresSQL etc.
-- +NORMALIZE_WHITESPACE make this works
+- +NORMALIZE_WHITESPACE make this work
+  https://docs.python.org/3/library/doctest.html#warnings
 
 Tuesday
 - revisit the bank account and conclude...

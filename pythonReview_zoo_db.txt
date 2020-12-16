@@ -1,0 +1,28 @@
+Python Database Review Exercise
+===============================
+Write code (in modules/packages as you choose) which creates a database containing a table to store data related to a zoo
+Each animal in the zoo needs fields for 'animal_type', 'quantity' and 'maintenance_cost' along with a unique identifier
+(You will only need to run the database and table code once)
+Retrieve 'animals.json' and use it's members to iteratively populate the database
+
+Ask the user for new 'animal_type', 'quantity' and 'maintenance_cost' and validate these before committing them to the table
+(type is a non empty string, quantity is a non-negative integer and cost is a positive float)
+
+Provide a user-driven set of choices to
+- add new animals to the zoo
+- update an existing animal (e.g. change quantity or maintenance cost)
+- delete an animal from the database
+- retrieve animals which match user criteria (such as type, quantiy, cost, 'begins-with' etc)
+
+see https://www.w3schools.com/sql/
+
+Optional
+========
+Make sure the animal table id is both unique and auto incremented
+Write a module to retrieve all the current data from the database into one Python structure
+(You could write an 'Animal' class and the populate a collection with instances of this class)
+Pickle this structure (of all animals) and write it out to a byte file
+Also convert the structure to json and write the json to a file
+Write code which clears the database of all existing data then re-populates it from either the pickled file or the json file
+Document your classes and methods
+Write a simple doctest for parts of your code
