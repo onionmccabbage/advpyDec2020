@@ -1,9 +1,9 @@
 # exploring context manager
 from contextlib import contextmanager
-import sys 
+import sys # we will usee stdout in this code
 
 # lets redirect some data
-@contextmanager
+@contextmanager # python 3 (also Python 2.7)
 def stdout_redirect(new_stdout):
     save_stdout = sys.stdout # keep hold of the original output stream
     # change the output context
