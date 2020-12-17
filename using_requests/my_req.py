@@ -2,7 +2,6 @@
 # pip install requests
 # in my case
 # pip install --target=D:\advpy\libs requests --ignore-installed
-# (thanks Igor!!)
 
 import requests
 url = 'https://jsonplaceholder.typicode.com'

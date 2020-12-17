@@ -1,0 +1,26 @@
+Python Review: SWAPI see https://pastebin.com/91q4szka
+==================== until about 2:10
+There is an API end-point at https://swapi.dev/api which can take parameters for category and id
+  e.g. https://swapi.dev/api/people/1
+Category can be people, planets, species, starships or vehicles (though some of them are slighly broken, so use try-except!)
+Ask the user which category, then which id, then get the JSON from this end-point API
+(You could use the Swapi-Service class at https://pastebin.com/1pfEqxKq or write your own end-point accessor code)
+
+See the provided base-class at https://pastebin.com/CALgSaf1 (every category returns a 'name' property)
+Write classes for people, planets, etc. which inherit from this base class, adding a few properties specific to the category
+So for example, people includes eye-color and height, planets included rotation period and population etc.
+When the data is returned, populate an instance of the relevant class
+
+Write code to measure the time it takes to make each request and the time it takes to create each instance
+Persist these metrics in a byte file and offer a way to retrieve the byte data
+
+Use cProfile to get a measure of which methods are taking longest
+
+Optional
+========
+Every time data is retrieved successfully, append the relevant class instance to a list
+Use context manager to let the user choose: show list via normal print or send to a text file (as text, using pickle or as json)
+
+Modify your code so the swapi_service is a runnable Thread class
+Ask the user for just an id, then make threaded, concurrent requests for each category (for this id)
+When all the threads terminate, show the results of each call (i.e. each category for the same id)
